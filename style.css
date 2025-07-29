@@ -1,0 +1,83 @@
+#loginbody {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(loginback.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#logindiv {
+    height: 390px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 15px;
+    margin-top: 118px;
+    color: white;
+}
+
+#heading5 {
+    font-size: 50px;
+}
+
+.inputup {
+    height: 30px;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.inputup:hover {
+    transform: scale(1.05);
+}
+
+.inputup::placeholder {
+    color: white;
+}
+
+#forgot {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-left: 240px;
+}
+
+#tapdiv {
+    height: 30px;
+    width: 350px;
+    background-color: white;
+    margin-left: 25px;
+    border-radius: 40px;
+    color: black;
+}
+
+#tapdiv :active {
+    background-color: black;
+    color: white;
+}
+
+#heading6 {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#logintap {
+    text-decoration: none;
+}
+
+
+#reg {
+    text-decoration: none;
+    color: white;
+}
